@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "captured_at_utc": "2026-11-05T19:39:38.0594870Z",
+  "hardware": {
+    "system": "THUNDEROBOT R16",
+    "cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "integrated_gpu": "Intel(R) UHD Graphics",
+    "discrete_gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+    "panel": "BOE NE160QDM-NZL",
+    "panel_id": "BOE0D55",
+    "intel_driver": "32.0.101.7092"
+  },
+  "windows_active_mode": {
+    "gpu": "Intel(R) UHD Graphics",
+    "width": 2560,
+    "height": 1600,
+    "refresh_hz": 300,
+    "bpp": 32
+  },
+  "current_profile": {
+    "width": 2560,
+    "height": 1600,
+    "refresh_hz": 300.0,
+    "pixel_clock_mhz": 1298.88,
+    "horizontal": {
+      "active": 2560,
+      "front_porch": 48,
+      "sync_width": 32,
+      "back_porch": 0,
+      "blanking": 80,
+      "total": 2640,
+      "polarity": "-"
+    },
+    "vertical": {
+      "active": 1600,
+      "front_porch": 6,
+      "sync_width": 6,
+      "back_porch": 28,
+      "blanking": 40,
+      "total": 1640,
+      "polarity": "-"
+    }
+  },
+  "preserved_profiles": [
+    {
+      "width": 2560,
+      "height": 1600,
+      "refresh_hz": 280.0,
+      "pixel_clock_mhz": 1294.72,
+      "horizontal": {
+        "active": 2560,
+        "front_porch": 48,
+        "sync_width": 32,
+        "back_porch": 80,
+        "blanking": 160,
+        "total": 2720,
+        "polarity": "-"
+      },
+      "vertical": {
+        "active": 1600,
+        "front_porch": 6,
+        "sync_width": 6,
+        "back_porch": 88,
+        "blanking": 100,
+        "total": 1700,
+        "polarity": "-"
+      }
+    },
+    {
+      "width": 2560,
+      "height": 1600,
+      "refresh_hz": 240.0,
+      "pixel_clock_mhz": 1109.76,
+      "horizontal": {
+        "active": 2560,
+        "front_porch": 48,
+        "sync_width": 32,
+        "back_porch": 80,
+        "blanking": 160,
+        "total": 2720,
+        "polarity": "-"
+      },
+      "vertical": {
+        "active": 1600,
+        "front_porch": 6,
+        "sync_width": 6,
+        "back_porch": 88,
+        "blanking": 100,
+        "total": 1700,
+        "polarity": "-"
+      }
+    },
+    {
+      "width": 2560,
+      "height": 1600,
+      "refresh_hz": 290.365234793796,
+      "pixel_clock_mhz": 1300.0,
+      "horizontal": {
+        "active": 2560,
+        "front_porch": 48,
+        "sync_width": 32,
+        "back_porch": 80,
+        "blanking": 160,
+        "total": 2720,
+        "polarity": "+"
+      },
+      "vertical": {
+        "active": 1600,
+        "front_porch": 3,
+        "sync_width": 6,
+        "back_porch": 37,
+        "blanking": 46,
+        "total": 1646,
+        "polarity": "-"
+      }
+    }
+  ],
+  "artifacts": {
+    "current_edid": {
+      "path": "outputs/BOE0D55-current-300Hz-1298.880MHz.bin",
+      "bytes": 512,
+      "sha256": "cc0687f0ba659de2b71005326740e95b7132b3b95acb700757342c3948a55d9d"
+    },
+    "native_reference_edid": {
+      "path": "inputs/BOE0D55-native-reference-384.bin",
+      "bytes": 384,
+      "sha256": "900c2019eb1346195bd53363de73fb1473f77dc577e149a9367475d3c7648a8e"
+    }
+  },
+  "validation": {
+    "windows_mode_readback_verified": true,
+    "edid_block_checksums_verified": true,
+    "user_report": "User reports the current 300Hz configuration appears improved and usable.",
+    "independent_physical_frame_skip_test_completed": false,
+    "long_duration_stability_test_completed": false,
+    "cold_boot_and_sleep_wake_validation_completed": false,
+    "pixel_clock_threshold_mhz_user_reported": 1304,
+    "exact_hardware_pixel_clock_limit_verified": false,
+    "desktop_bpp_is_not_link_color_depth": true,
+    "settings_changed_by_this_capture": false
+  },
+  "provenance": {
+    "current_edid": "Read-only concatenation of the active panel EDID_OVERRIDE numeric blocks; includes the currently saved 240/280/290/300Hz timing entries.",
+    "native_reference_edid": "Historical full EDID cache of the same panel, recovered earlier; not a fresh physical-panel read and not restore-tested.",
+    "scope": "A snapshot from one machine; not a manufacturer-certified or universal profile."
+  }
+}

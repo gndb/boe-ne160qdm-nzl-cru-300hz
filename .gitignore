@@ -1,0 +1,9 @@
+evidence/
+.maintenance/
+__pycache__/
+*.pyc
+*.reg
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
